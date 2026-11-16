@@ -1,0 +1,6 @@
+package com.event.event_ticket_app.dto.auth;
+
+import jakarta.validation.constraints.NotBlank;
+
+public record RefreshRequest(@NotBlank String refreshToken) {
+}
